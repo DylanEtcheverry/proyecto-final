@@ -1,0 +1,48 @@
+@use "./separacion/body";
+@use "./separacion/variantes";
+@use "./separacion/titulos";
+@use "./separacion/mixins";
+
+
+
+/* a partir de 1200 pixeles (desktop)*/
+@media (min-width: 1200px) { 
+ /* index */
+    .nav-index {
+        display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+     height: 3rem;
+    }
+    /* lista desordenada*/
+    .linkeo-index {
+        margin-left: auto;
+    }
+    /* titulo / nombre del juego*/
+    .titulo{
+        height: 13rem;
+    }
+}
+
+.carousel-item {
+    /*achica la imagen de altura*/
+    height: 25rem;
+    /*separa de arriba la imagen y costados*/
+    padding: 0.5rem;
+}
+.carousel-img {
+   /* tamaño de imagen */
+    width: 38rem;  
+    /*altura de la imagen*/  
+    height: 20rem;
+    /* bordes */
+    margin: 0 auto;
+    /* tamaño de imagen para movil*/
+    max-width: 100%;
+    object-fit: cover;
+display: flex;
+    display: block;
+    
+}

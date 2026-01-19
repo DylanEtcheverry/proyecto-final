@@ -1,0 +1,15 @@
+@mixin boton-compartido {
+    padding: 0.5rem;
+    color: $boton;
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.boton-descarga {
+    @include boton-compartido()
+}
+
+.button-descripcion {
+    @include boton-compartido()
+}
