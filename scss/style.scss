@@ -1,14 +1,12 @@
-@use "./separacion/body";
-@use "./separacion/variantes";
-@use "./separacion/titulos";
-@use "./separacion/mixins";
-
-
+@import "./separacion/body";
+@import "./separacion/variantes";
+@import "./separacion/titulos";
+@import "./separacion/mixins";
 
 /* a partir de 1200 pixeles (desktop)*/
 @media (min-width: 1200px) { 
- /* index */
-    .nav-index {
+ /* navbar */
+    .nav-1 {
         display: flex;
      justify-content: space-between;
      align-items: center;
@@ -17,7 +15,7 @@
      height: 3rem;
     }
     /* lista desordenada*/
-    .linkeo-index {
+    .linkeo-compartido {
         margin-left: auto;
     }
     /* titulo / nombre del juego*/

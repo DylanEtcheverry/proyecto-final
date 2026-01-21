@@ -4,6 +4,9 @@
     border-radius: 1rem;
     display: block;
     margin: 0 auto;
+   display: flex;
+   text-decoration: none;
+   color: inherit;
 }
 
 .boton-descarga {
@@ -12,4 +15,9 @@
 
 .button-descripcion {
     @include boton-compartido()
+}
+
+.boton-Informacion {
+    @include boton-compartido()
+
 }
