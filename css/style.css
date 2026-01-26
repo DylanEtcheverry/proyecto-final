@@ -24,6 +24,11 @@
   color: #b58eff;
 }
 
+.tittle {
+  text-align: center;
+  color: #d2cdcd;
+}
+
 .boton-descarga {
   padding: 0.5rem;
   color: #000000;
