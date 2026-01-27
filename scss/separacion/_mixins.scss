@@ -9,13 +9,22 @@
    color: inherit;
 }
 
-@mixin centrado {
+@mixin text-contenido {
     text-align: center;
     color: #d2cdcd;
 }
 
+@mixin text-descarga  {
+    text-align: center;
+    
+    }
+
+    .Descarga {
+        @include text-descarga()
+    }
+
 .tittle {
-    @include centrado()
+    @include text-contenido()
 }
 .boton-descarga {
     @include boton-compartido()
